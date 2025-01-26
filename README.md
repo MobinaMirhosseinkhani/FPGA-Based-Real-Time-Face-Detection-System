@@ -1,2 +1,4 @@
 # FPGA-Based-Real-Time-Face-Detection-System
-FPGA-based real-time face detection system with OV7670 camera interface, SDRAM controller, and VGA display at 640x480.  Developed by Athena Adampira, Mina Ebrahimi, Morteza Afroozeh, Athena Daneshi, Seyed Saeed Mortazavi, and Mobina Mirhosseinkhani.
+This codebase implements a real-time face detection system using FPGA. The project includes modules for camera interfacing (OV7670), SDRAM control, VGA output, and image processing. Key components include enhanced skin detection, feature-based face detection, and preprocessing modules. The system captures video via CMOS camera, processes frames through multiple detection algorithms, stores data in SDRAM, and outputs to VGA display. Face detection combines skin tone analysis, feature detection (eyes, nose, mouth), and neural network processing. The system handles clock domain crossing, memory management, and real-time display at 640x480 resolution.
+
+Developed by Athena Adampira, Mina Ebrahimi, Morteza Afroozeh, Athena Daneshi, Seyed Saeed Mortazavi, and Mobina Mirhosseinkhani.
